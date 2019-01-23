@@ -1,9 +1,13 @@
-#local vagrant box
-.vagrant/
+#  Local .terraform directories
+**/.terraform/*
 
-#terraform
-*.tf
-.terraform*
-terraform*
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
 *.tfvars
 
+.vagrant/
+.kitchen/
+Gemfile.lock
