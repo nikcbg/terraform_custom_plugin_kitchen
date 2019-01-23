@@ -11,4 +11,3 @@ control 'check_output' do
     it { should_not eq 'nil' }
   end
 end
-~   
