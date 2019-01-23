@@ -6,4 +6,3 @@ source 'https://rubygems.org/' do
   gem 'kitchen-inspec'
   gem 'inspec'
 end
-~     
