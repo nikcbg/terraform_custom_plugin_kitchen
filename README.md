@@ -41,10 +41,10 @@ below steps are executed on the Vagrant VM after you login and | are for compili
 
 Command execution | Command purpose
 ------------------|------------------------------
-`cd /vagrant` | to go into vagrant directory
+`cd /vagrant` | to go into `vagrant` directory
 `sudo -s` | to become root on the VM
-`gem install bundler` | to install gem which is package manager for ruby.
-`bundle install` | to install kitchen framework.
+`gem install bundler` | to install `gem` which is package manager for ruby.
+`bundle install` | to install `kitchen` framework.
 `bundle exec kitchen list` | to list `kitchen` instances.
 `bundle exec kitchen converge`	| to create `kitchen` environment.
 `bundle exec kitchen verify`	| to execute `kitchen` test.
