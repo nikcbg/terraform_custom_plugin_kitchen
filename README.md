@@ -28,7 +28,7 @@ Command execution | Command purpose
 ------------------|------------------------------
 `vagrant up` | to create and configure the VM.
 `vagrant ssh` | to login to the VM we just cretaed.
-#### below steps are executed on the Vagrant VM after you login and | are for compiling the custom plugin
+#### below steps are executed on the Vagrant VM after you login and | #### are for compiling the custom plugin
 `go get github.com/petems/terraform-provider-extip` | to clone the repository with custom plugin.
 `cd ~/go/src/github.com/petems/terraform-provider-extip`| to go into the directory where the repo is cloned.
 `make build` | to compile the plugin from the downloaded repository.
