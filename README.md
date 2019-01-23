@@ -29,7 +29,7 @@ Command execution | Command purpose
 ------------------|------------------------------
 `vagrant up` | to create and configure the VM.
 `vagrant ssh` | to login to the VM we just cretaed.
-below steps are executed on the Vagrant VM after you login and are for compiling the custom plugin
+below steps are executed on the Vagrant VM after you login and | are for compiling the custom plugin
 `go get github.com/petems/terraform-provider-extip` | to clone the repository with custom plugin.
 `cd ~/go/src/github.com/petems/terraform-provider-extip`| to go into the directory where the repo is cloned.
 `make build` | to compile the plugin from the downloaded repository.
@@ -39,6 +39,7 @@ below steps are executed on the Vagrant VM after you login and are for compiling
 
 ### Performing the test with `kitchen`
 - you still need to be login to the VM to perform the test.
+
 Command execution | Command purpose
 ------------------|------------------------------
 `cd /vagrant` | to go into vagrant directory
@@ -57,7 +58,7 @@ Profile: tests from {:path=>"/vagrant/test/integration/default"} (tests from {:p
 Version: (not specified)
 Target:  local://
 
-  ✔  check_output: 77.85.196.242
+  ✔  check_output: xxx.xxx.xxx.xxx
      ✔  xxx.xxx.xxx.xxx should not eq "127.0.0.1"
      ✔  xxx.xxx.xxx.xxx should not eq ""
      ✔  xxx.xxx.xxx.xxx should not eq "nil"
